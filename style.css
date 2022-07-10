@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'poppin';
+    src: url('font/Poppins-Light.ttf');
+}
+
+.header-title {
+    font-family: poppin;
+    font-size: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.header-undertitle {
+    font-family: poppin;
+    font-size: 15px;
+    margin-left: 335px;
+}
+
+.drone {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 250px;
+}
+
+.drone img {
+    width: 40rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+
+.dot {
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: #80aad0;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.tekst {
+    font-family: poppin;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 900px;
+}
