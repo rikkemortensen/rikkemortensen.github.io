@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 70px;
-    margin-top: 250px;
+    margin-top: 280px;
 }
 
 .drone img {
@@ -43,7 +43,7 @@
 .tekst {
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 900px;
 }
 
@@ -53,4 +53,29 @@
 .hvordan {
     font-family: poppin;
     position: absolute;
+}
+
+.navMenu {
+    position: absolute;
+    top: 8%;
+    left: 75%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: poppin;
+}
+
+.navMenu a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 120px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+    color: #80aad0;
 }
