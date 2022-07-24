@@ -11,6 +11,7 @@ const routes = {
     "/hvordan": "/pages/hvordan.html",
     "/ommig": "/pages/ommig.html",
     "/booktid": "/pages/booktid.html",
+    "/eksempler": "/pages/eksempler.html",
 };
 
 const handleLocation = async() => {
