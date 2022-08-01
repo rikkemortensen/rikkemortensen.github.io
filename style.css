@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 70px;
-    margin-top: 280px;
+    margin-top: 300px;
 }
 
 .drone img {
@@ -49,19 +49,10 @@
     position: absolute;
 }
 
-
-/* .hvad,
-.hvem,
-.hvornår,
-.hvordan {
-    font-family: poppin;
-    position: absolute;
-} */
-
 .navMenu {
     position: absolute;
     top: 65px;
-    left: 65%;
+    right: 0%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-family: poppin;
@@ -82,10 +73,3 @@
 .navMenu a:hover {
     color: #80aad0;
 }
-
-
-/* @media only screen and (max-width: 2100px) {
-    .navMenu {
-        top: 5%;
-    }
-} */
