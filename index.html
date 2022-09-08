@@ -21,7 +21,8 @@
             <div class="header-undertitle">- Måske Danmarks længste domæne</div>
         </div>
 
-        <nav class="navMenu">
+        <nav class="navMenu" style="display: flex;
+        flex-wrap: wrap;">
             <a href="/" onclick="route()">Forside</a>
             <a href="/hvordan" onclick="route()" style="margin-right: 25px;">Forbehold</a>
             <a href="/booktid" onclick="route()" style="margin-right: 10px;">Book tid</a>
@@ -29,29 +30,34 @@
             <a href="/eksempler" onclick="route()">Eksempler</a>
         </nav>
 
-        <div class="drone">
-            <span class="dot"></span>
-            <img src="./drone1.png" alt="dronen">
-        </div>
+        <div style="display: flex;">
+            <div class="drone">
+                <span class="dot"></span>
+                <img src="./drone1.png" alt="dronen">
+            </div>
 
-        <div class="tekst">
-            <div class="hvad">
-                <p>Droneinspektion af tagrender, tag eller hvad du <br> har brug for, at få dokumenteret fra oven. </p>
-                <p>Pris: 400 kr. i og omkring Nordsjælland.</p>
-                <p>Du får billeder og/eller video tilsendt efterfølgende.<br> Rådgivning omkring tagkonstuktioner og tagrender, </br>tilbyder jeg ikke.</p>
-                <p>Når du bestiller tid giver du dermed tilladelse til,<br> at jeg må overflyve din ejendom.</p>
-                <p style="font-size: smaller;">Skal du bruge en hjemmeside eller en specifik CSS <br> animation, kan jeg også være behjælpelig. <br> Se kontakt info <a href="/booktid" onclick="route()">her</a>.</p>
+            <div class="tekst">
+                <div class="hvad">
+                    <p>Droneinspektion af tagrender, tag eller hvad du <br> har brug for, at få dokumenteret fra oven. </p>
+                    <p>Pris: 400 kr. i og omkring Nordsjælland.</p>
+                    <p>Du får billeder og/eller video tilsendt efterfølgende.<br> Rådgivning omkring tagkonstuktioner og tagrender, </br>tilbyder jeg ikke.</p>
+                    <p>Når du bestiller tid giver du dermed tilladelse til,<br> at jeg må overflyve din ejendom.</p>
+                    <p style="font-size: smaller;">Skal du bruge en hjemmeside eller en specifik CSS <br> animation, kan jeg også være behjælpelig. <br> Se kontakt info <a href="/booktid" onclick="route()">her</a>.</p>
+                </div>
             </div>
         </div>
 
         <div>
-            <p style="font-family: poppin; font-size: smaller; position: fixed;
-            bottom: 0;
-            left: 25px;">CVR. nummer: 43275623; Rikke Katrine Mortensen; 3460 Birkerød</p>
+            <p class="footer">CVR. nummer: 43275623; Rikke Katrine Mortensen; 3460 Birkerød</p>
         </div>
     </div>
 
 </body>
 <script src="app.js"></script>
+<script src="/gsap-public/minified/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/MotionPathPlugin.min.js"></script>
 
 </html>

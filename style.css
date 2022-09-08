@@ -5,15 +5,10 @@
 
 .header-title {
     font-family: poppin;
-    font-size: 50px;
-    margin-left: 25px;
-    margin-top: 25px;
 }
 
 .header-undertitle {
     font-family: poppin;
-    font-size: 15px;
-    margin-left: 360px;
 }
 
 .drone {
@@ -28,7 +23,6 @@
 .drone img {
     width: 40rem;
     z-index: 2;
-    transition: all 0.75s ease-out;
 }
 
 .dot {
@@ -43,8 +37,6 @@
 .tekst {
     display: flex;
     align-items: center;
-    margin-top: 200px;
-    margin-left: 900px;
     font-family: poppin;
     position: absolute;
     line-height: 1.6;
@@ -73,4 +65,138 @@
 
 .navMenu a:hover {
     color: #80aad0;
+}
+
+@media only screen and (min-width: 500px) {
+    .header-title {
+        font-family: poppin;
+        font-size: 50px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    .header-undertitle {
+        font-family: poppin;
+        font-size: 15px;
+        margin-left: 360px;
+    }
+    .drone {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 70px;
+        margin-top: 300px;
+    }
+    .drone img {
+        width: 40rem;
+        z-index: 2;
+    }
+    .dot {
+        position: absolute;
+        height: 550px;
+        width: 550px;
+        background-color: #80aad0;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .tekst {
+        display: flex;
+        align-items: center;
+        margin-top: 230px;
+        margin-left: 900px;
+        font-family: poppin;
+        line-height: 1.6;
+    }
+    .navMenu {
+        position: absolute;
+        top: 65px;
+        right: 0%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family: poppin;
+    }
+    .navMenu a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 1.0em;
+        text-transform: uppercase;
+        font-weight: 500;
+        display: inline-block;
+        width: 100px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    .footer {
+        font-family: poppin;
+        font-size: smaller;
+        position: fixed;
+        bottom: 0;
+        left: 25px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header-title {
+        font-family: poppin;
+        font-size: 30px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    .header-undertitle {
+        font-family: poppin;
+        font-size: 9px;
+        margin-left: 50px;
+    }
+    .drone img {
+        width: 16rem;
+    }
+    .dot {
+        height: 200px;
+        width: 200px;
+    }
+    .drone {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .tekst {
+        display: flex;
+        margin-top: 250px;
+        font-family: poppin;
+        position: absolute;
+        line-height: 1.6;
+        width: 300px;
+        font-size: 13px;
+        margin-left: 25px;
+    }
+    .navMenu {
+        position: absolute;
+        top: 65px;
+        right: 0%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family: poppin;
+    }
+    .navMenu a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 1.0em;
+        text-transform: uppercase;
+        font-weight: 500;
+        display: inline-block;
+        width: 100px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    .footer {
+        font-family: poppin;
+        font-size: 10px;
+        position: fixed;
+        position: fixed;
+        left: 25px;
+        bottom: 0;
+    }
 }
