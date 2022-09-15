@@ -127,6 +127,14 @@
         bottom: 0;
         left: 25px;
     }
+    .images {
+        width: 500px;
+        height: 400px;
+    }
+    .imagesMobile {
+        margin-top: 20px;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -186,5 +194,14 @@
         position: fixed;
         left: 25px;
         bottom: 0;
+    }
+    .images {
+        margin-top: 15px;
+        width: 350px;
+        height: 300px;
+    }
+    .imagesMobile {
+        margin-top: 100px;
+        text-align: center;
     }
 }
