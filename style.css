@@ -108,6 +108,8 @@
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         font-family: poppin;
+        font-weight: bold;
+        border: #000000;
     }
     .navMenu a {
         color: #000000;
@@ -131,9 +133,17 @@
         width: 500px;
         height: 400px;
     }
+    .tower_image {
+        width: 500px;
+        height: 700px;
+    }
     .imagesMobile {
         margin-top: 20px;
         text-align: center;
+    }
+    .navMenu a:focus {
+        color: #80aad0;
+        font-weight: bold;
     }
 }
 
@@ -199,6 +209,10 @@
         margin-top: 15px;
         width: 350px;
         height: 300px;
+    }
+    .tower_image {
+        width: 350px;
+        height: 550px;
     }
     .imagesMobile {
         margin-top: 100px;
