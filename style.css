@@ -3,65 +3,35 @@
     src: url('font/Poppins-Light.ttf');
 }
 
-.header-title {
-    font-family: poppin;
-}
-
-.header-undertitle {
-    font-family: poppin;
-}
-
 .drone {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 70px;
-    margin-top: 300px;
 }
 
 .drone img {
-    width: 40rem;
+    width: 30rem;
     z-index: 2;
 }
 
 .dot {
     position: absolute;
-    height: 550px;
-    width: 550px;
+    height: 400px;
+    width: 400px;
     background-color: #80aad0;
     border-radius: 50%;
     display: inline-block;
 }
 
-.tekst {
-    display: flex;
-    align-items: center;
-    font-family: poppin;
-    position: absolute;
-}
-
-.navMenu {
-    position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-family: poppin;
-}
-
-.navMenu a {
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-.navMenu a:hover {
-    color: #80aad0;
-}
-
 @media only screen and (min-width: 500px) {
+    /* body {
+    margin: 0;
+} */
+    .starten {
+        height: 20vh;
+    }
     .header-title {
         font-family: poppin;
         font-size: 50px;
@@ -73,6 +43,78 @@
         font-size: 15px;
         margin-left: 360px;
     }
+    .tekst {
+        display: block;
+        align-items: center;
+        margin-left: 900px;
+        font-family: poppin;
+        line-height: 1.6;
+        width: 500px;
+    }
+    .tekst_orange {
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        font-family: poppin;
+        line-height: 1.6;
+    }
+    .hvad {
+        width: 100%;
+        height: 40vh;
+    }
+    .conditions {
+        background-color: #80aad0;
+    }
+    .random-styles {
+        line-height: 1.8;
+        padding: 30px;
+        width: 700px;
+    }
+    .purple {
+        width: 100vw;
+        height: 20vh;
+    }
+    .yellow {
+        background-color: lightblue;
+    }
+    .green {
+        width: 100vw;
+    }
+    .last_one {
+        width: 100vw;
+        height: 5vh;
+    }
+    .images {
+        width: 500px;
+        height: 400px;
+        margin: 15px;
+    }
+    .tower_image {
+        width: 500px;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+    .book_tid {
+        display: block;
+        font-family: poppin;
+        line-height: 1.6;
+        padding: 20px;
+        margin-bottom: 40px;
+        width: 700px;
+    }
+    .header {
+        font-size: 20px;
+        margin: 15px;
+        font-family: poppin;
+    }
+    .header-title {
+        font-family: poppin;
+    }
+    .header-undertitle {
+        font-family: poppin;
+    }
     .drone {
         position: absolute;
         display: flex;
@@ -82,75 +124,26 @@
         margin-top: 300px;
     }
     .drone img {
-        width: 40rem;
+        width: 30rem;
         z-index: 2;
     }
     .dot {
         position: absolute;
-        height: 550px;
-        width: 550px;
+        height: 400px;
+        width: 400px;
         background-color: #80aad0;
         border-radius: 50%;
         display: inline-block;
     }
-    .tekst {
-        display: flex;
-        align-items: center;
-        margin-top: 230px;
-        margin-left: 900px;
-        font-family: poppin;
-        line-height: 1.6;
-    }
-    .navMenu {
-        position: absolute;
-        top: 65px;
-        right: 0%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        font-family: poppin;
-        font-weight: bold;
-        border: #000000;
-    }
-    .navMenu a {
-        color: #000000;
-        text-decoration: none;
-        font-size: 1.0em;
-        text-transform: uppercase;
-        font-weight: 500;
-        display: inline-block;
-        width: 100px;
-        -webkit-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
-    }
-    .footer {
-        font-family: poppin;
-        font-size: smaller;
-        position: fixed;
-        bottom: 0;
-        left: 25px;
-    }
-    .images {
-        width: 500px;
-        height: 400px;
-    }
-    .tower_image {
-        width: 500px;
-        height: 700px;
-    }
-    .imagesMobile {
-        margin-top: 20px;
-        text-align: center;
-    }
-    .navMenu a:focus {
-        color: #80aad0;
-        font-weight: bold;
-    }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
+    body {
+        margin: 0;
+    }
     .header-title {
         font-family: poppin;
-        font-size: 30px;
+        font-size: 25px;
         margin-left: 25px;
         margin-top: 25px;
     }
@@ -171,51 +164,58 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 80px;
-        margin-top: 85px;
+        margin-left: 65px;
     }
     .tekst {
-        display: flex;
-        margin-top: 230px;
+        display: block;
+        margin-top: 250px;
         font-family: poppin;
-        position: absolute;
-        line-height: 1.4;
-        width: 300px;
-        font-size: 13px;
-        margin-left: 25px;
+        line-height: 1.6;
+        padding: 20px;
     }
-    .navMenu {
-        position: absolute;
-        top: 180px;
+    .tekst_orange {
+        display: block;
+        padding: 20px;
         font-family: poppin;
-        font-size: 0.7em;
-        margin-left: 140px;
+        line-height: 1.6;
+        background-color: #80aad0;
     }
-    .navMenu a {
-        color: #000000;
-        text-decoration: none;
-        font-size: 0.9em;
-        text-transform: uppercase;
-        width: 200px;
+    .conditions {
+        background-color: #80aad0;
+        width: 100%;
+        height: 100%;
+        padding: 10px
     }
-    .footer {
+    .book_tid {
+        display: block;
         font-family: poppin;
-        font-size: 10px;
-        position: fixed;
-        left: 25px;
-        bottom: 0;
+        line-height: 1.6;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .header {
+        font-size: 20px;
+        margin: 15px;
+        font-family: poppin;
     }
     .images {
-        margin-top: 15px;
-        width: 350px;
+        width: 100%;
         height: 300px;
+        margin: 15px;
     }
     .tower_image {
-        width: 350px;
-        height: 550px;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
     }
-    .imagesMobile {
-        margin-top: 100px;
-        text-align: center;
+    .footer {
+        display: block;
+        padding: 10px;
+        margin-top: 20px;
+        font-family: poppin;
+        line-height: 1.6;
+        font-size: 12px;
     }
 }

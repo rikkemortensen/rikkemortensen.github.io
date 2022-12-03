@@ -11,51 +11,80 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="bluesquare.png" type="image/x-icon">
 </head>
 
 <body>
-    <div id="main-page">
+    <div class="description panel starten">
         <div>
             <div class="header-title">RIKKE KATRINE MORTENSEN</div>
             <div class="header-undertitle">- Måske Danmarks længste domæne</div>
         </div>
-
-        <nav class="navMenu">
-            <a href="/" onclick="route()">Forside</a>
-            <a href="/hvordan" onclick="route()" style="margin-right: 25px;">Forbehold</a>
-            <a href="/booktid" onclick="route()" style="margin-right: 10px;">Book tid</a>
-            <a href="/ommig" onclick="route()">Om mig</a>
-            <a href="/eksempler" onclick="route()">Eksempler</a>
-        </nav>
-
-        <div style="display: flex;">
-            <div class="drone">
-                <span class="dot"></span>
-                <img src="./drone1.png" alt="dronen">
-            </div>
-
-            <div class="tekst">
-                <div class="hvad">
-                    <p>Droneinspektion af tagrender, tag eller hvad du har brug for, at få dokumenteret fra oven. </p>
-                    <p>Pris: 400 kr. i og omkring Nordsjælland.</p>
-                    <p>Du får billeder og/eller video tilsendt efterfølgende. Rådgivning omkring tagkonstuktioner og tagrender, tilbyder jeg ikke.</p>
-                    <p>Når du bestiller tid giver du dermed tilladelse til, at jeg må overflyve din ejendom.</p>
-                </div>
-            </div>
-
-            <p class="footer">CVR. nummer: 43275623; Rikke Katrine Mortensen; 3460 Birkerød</p>
-        </div>
-
-
     </div>
 
+    <div class="panel">
+        <div class="drone" style="margin-top: 100px;">
+            <span class="dot"></span>
+            <img src="./drone1.png" alt="dronen" class="dronen">
+        </div>
+    </div>
+
+    <div class="panel hvad">
+        <div class="tekst">
+            <p>Droneinspektion af tagrender, tag eller hvad du har brug for, at få dokumenteret fra oven. </p>
+            <p>Pris: <b>450 kr.</b> i og omkring Nordsjælland.</p>
+            <p>Du får billeder og/eller video tilsendt efterfølgende. Rådgivning omkring tagkonstuktioner tagrender og bygninger generelt, kan jeg ikke tilbyde.</p>
+            <p>Når du bestiller tid giver du samtidig tilladelse til, at jeg må overflyve din ejendom.</p>
+        </div>
+    </div>
+
+    <div class="panel conditions">
+        <div class="tekst_orange">
+            <div class="random-styles">
+                <p style="font-weight: bold; margin-right: 10px;">Forbehold</p>
+                <p>Jeg forbeholder mig retten til at aflyse, hvis det blæser for meget eller regner. Derudover flyver jeg ikke indenfor 300m horisontal afstand fra militært område (herunder kongehusets residenser), 15 meter horisontal afstand fra jernbaner
+                    og bybaner, samt 5 km fra flyveplads, og 8 km fra en militær flyvestation. Når du bestiller tid giver du samtidig tilladelse til at jeg må overflyve din ejendom. </br>
+                    Jeg har den lovpligtige drone ansvarsforsikring.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel purple">
+        <div class="book_tid random-styles" style="margin-left: 900px;">
+
+            <p style="font-weight: bold; margin-right: 10px;">Book tid</p>
+            <p>Skriv til <b>rikkekatrinemortensen@gmail.com</b>,</br> så finder vi et tidspunkt efter kl. 16 </br> på hverdage, eller i weekenden. </p>
+
+        </div>
+    </div>
+
+    <div class="panel yellow">
+        <div class="tekst_orange">
+            <div style="line-height: 1.8; padding: 40px; width: 500px">
+                <p style="font-weight: bold; margin-right: 10px; ">Om mig </p>
+                <p>Jeg hedder Rikke, jeg har en cand.scient i Medialogi fra Aalborg Universitet og arbejder som software udvikler. </br> Jeg har dronekompetencebevis open A1/A3 & A2 og flyver en DJI Mavic Air 2.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel green">
+        <p class="header" style="margin-top: 40px">Eksempler: </p>
+        <img src="./tag1.png " alt="Tag 1 " class="images skewElem ">
+        <img src="./tag2.png " alt="Tag 2 " class="images skewElem ">
+        <img src="./tag3.png " alt="Tag 3 " class="images skewElem ">
+        <img src="./tag4.png " alt="Tag 4 " class="images skewElem ">
+        <img src="./tag5.png " alt="Tag 5 " class="images skewElem ">
+        <img src="./tag7.png " alt="Tag 7 " class="images skewElem ">
+        <img src="./tag6.png " alt="Tag 6 " class="tower_image skewElem ">
+    </div>
+
+    <div class="panel last_one">
+        <div class="footer">
+            <p>CVR. nummer: 43275623; Rikke Katrine Mortensen; 3460 Birkerød</p>
+        </div>
+    </div>
 </body>
-<script src="app.js"></script>
-<script src="/gsap-public/minified/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollToPlugin.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/MotionPathPlugin.min.js"></script>
+
+<script src="app.js "></script>
 
 </html>
