@@ -64,6 +64,7 @@
     }
     .conditions {
         background-color: #80aad0;
+        margin-top: 50px;
     }
     .random-styles {
         line-height: 1.8;
@@ -72,7 +73,7 @@
     }
     .purple {
         width: 100vw;
-        height: 20vh;
+        height: 30vh;
     }
     .yellow {
         background-color: lightblue;
@@ -100,9 +101,8 @@
         display: block;
         font-family: poppin;
         line-height: 1.6;
-        padding: 20px;
-        margin-bottom: 40px;
-        width: 700px;
+        padding: 50px;
+        width: 500px;
     }
     .header {
         font-size: 20px;
